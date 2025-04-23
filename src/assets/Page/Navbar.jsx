@@ -12,12 +12,13 @@ window.location.href = "https://www.google.com"
             <img src={Logo} alt="SYI Market Logo" className="mr-2 rounded-md"/>
         </div>
         <nav className="space-x-4">
-            <a href="#" className="hover:underline"><Link to="/">Home</Link></a>
-            <a href="#" className="hover:underline"><Link to="/Layanan">Layanan</Link></a>
-            <a href="#" className="hover:underline"><Link to="/FAQ">FAQ</Link></a>
-            <a href="#" className="hover:underline"><Link to="/Contact">Contact</Link></a>
+            <Link className="hover:underline" to="/">Home</Link>
+            <Link className="hover:underline" to="/Layanan">Layanan</Link>
+            <Link className="hover:underline" to="/FAQ">FAQ</Link>
+            
         </nav>
-        <a href="#" className="hover:underline"><Link to="/Myaccount"></Link></a>
+        {/* <Link className="hover:underline" to="/MyAcount">MyAccount</Link> */}
+
     </header>
     );
 };

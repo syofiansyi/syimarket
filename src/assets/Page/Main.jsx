@@ -50,7 +50,7 @@ const Main = () => {
             key={idx}
             src={src}
             alt={`Slide ${idx}`}
-            className="w-full flex-shrink-0"
+            className="w-full flex-shrink-0 rounded-2xl"
           />
         ))}
       </div>
