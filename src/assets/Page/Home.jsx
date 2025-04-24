@@ -125,42 +125,42 @@ const Home = () => {
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       {/* Testimonial Card 1 */}
       <div className="bg-white rounded-lg shadow-md p-4">
-        <img src="https://via.placeholder.com/100" alt="John Doe" className="w-24 h-24 rounded-full mx-auto mb-4" />
+        <img src={Gambar} alt="John Doe" className="w-24 h-24 rounded-full mx-auto mb-4" />
         <p className="text-gray-600 italic">"Great products! Fast shipping and excellent customer service. I was pleasantly surprised by the quality of the items I received."</p>
         <h3 className="text-lg font-semibold mt-4">- John Doe</h3>
         <p className="text-gray-500">Verified Buyer</p>
       </div>
       {/* Testimonial Card 2 */}
       <div className="bg-white rounded-lg shadow-md p-4">
-        <img src="https://via.placeholder.com/100" alt="Jane Smith" className="w-24 h-24 rounded-full mx-auto mb-4" />
+        <img src={Gambar} alt="Jane Smith" className="w-24 h-24 rounded-full mx-auto mb-4" />
         <p className="text-gray-600 italic">"I love the quality of the items. The colors are vibrant and the fit is perfect. Will definitely buy again!"</p>
         <h3 className="text-lg font-semibold mt-4">- Jane Smith</h3>
         <p className="text-gray-500">Fashion Enthusiast</p>
       </div>
       {/* Testimonial Card 3 */}
       <div className="bg-white rounded-lg shadow-md p-4">
-        <img src="https://via.placeholder.com/100" alt="Alice Johnson" className="w-24 h-24 rounded-full mx-auto mb-4" />
+        <img src={Gambar} alt="Alice Johnson" className="w-24 h-24 rounded-full mx-auto mb-4" />
         <p className="text-gray-600 italic">"Amazing experience! The customer support was very helpful when I had questions about my order. Highly recommend this store."</p>
         <h3 className="text-lg font-semibold mt-4">- Alice Johnson</h3>
         <p className="text-gray-500">Frequent Shopper</p>
       </div>
       {/* Testimonial Card 4 */}
       <div className="bg-white rounded-lg shadow-md p-4">
-        <img src="https://via.placeholder.com/100" alt="Michael Brown" className="w-24 h-24 rounded-full mx-auto mb-4" />
+        <img src={Gambar} alt="Michael Brown" className="w-24 h-24 rounded-full mx-auto mb-4" />
         <p className="text-gray-600 italic">"I was impressed with the variety of products available. Everything I ordered arrived on time and in perfect condition!"</p>
         <h3 className="text-lg font-semibold mt-4">- Michael Brown</h3>
         <p className="text-gray-500">Tech Lover</p>
       </div>
       {/* Testimonial Card 5 */}
       <div className="bg-white rounded-lg shadow-md p-4">
-        <img src="https://via.placeholder.com/100" alt="Sarah Wilson" className="w-24 h-24 rounded-full mx-auto mb-4" />
+        <img src={Gambar} alt="Sarah Wilson" className="w-24 h-24 rounded-full mx-auto mb-4" />
         <p className="text-gray-600 italic">"The best online shopping experience I've had! The website is easy to navigate and the checkout process was seamless."</p>
         <h3 className="text-lg font-semibold mt-4">- Sarah Wilson</h3>
         <p className="text-gray-500">Home Decor Aficionado</p>
       </div>
       {/* Testimonial Card 6 */}
       <div className="bg-white rounded-lg shadow-md p-4">
-        <img src="https://via.placeholder.com/100" alt="David Lee" className="w-24 h-24 rounded-full mx-auto mb-4" />
+        <img src={Gambar} alt="David Lee" className="w-24 h-24 rounded-full mx-auto mb-4" />
         <p className="text-gray-600 italic">"I bought a gift for my friend, and she loved it! Thank you for making my shopping experience so enjoyable."</p>
         <h3 className="text-lg font-semibold mt-4">- David Lee</h3>
         <p className="text-gray-500">Gift Giver</p>
